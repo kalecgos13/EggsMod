@@ -1,5 +1,8 @@
 {
  "itemGroup.eggs_item_group":"Eggs mod",
  "item.eggs.omelet":"Omelet",
- "item.eggs.explosive_egg": "Explosive Egg"
+ "item.eggs.explosive_egg": "Explosive Egg",
+ "item.eggs.broken_egg": "Broken Egg",
+ "item.eggs.tooltip.broken_egg": "Gotten by right clicking an Egg on a Block",
+ "empty_row": ""
 }
