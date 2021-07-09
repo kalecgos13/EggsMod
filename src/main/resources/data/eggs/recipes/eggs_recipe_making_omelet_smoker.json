@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "minecraft:egg"
+  },
+  "result": "eggs:omelet",
+  "experience": 0.40
+}
