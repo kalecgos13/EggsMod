@@ -27,7 +27,6 @@ public class ExplosiveEggItem extends Item {
             explosiveEggEntity.setItem(itemStack);
             explosiveEggEntity.setDirectionAndMovement(player, player.rotationPitch, player.rotationYaw, 0.0F, 1.5F, 1.0F);
             world.addEntity(explosiveEggEntity);
-            System.out.println("throwing egg");
         }
         player.addStat(Stats.ITEM_USED.get(this));
         if(!player.abilities.isCreativeMode) {
