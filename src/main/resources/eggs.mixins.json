@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "package": "com.kalec.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "eggs.refmap.json",
+  "mixins": [
+    "MixinEggItem"
+  ],
+  "minVersion": "0.8"
+}

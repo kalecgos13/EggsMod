@@ -7,6 +7,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 public class StartUpCommon {
     public static OmeletItem omeletItem;
     public static ExplosiveEggItem explosiveEggItem;
+    public static BrokenEggItem brokenEggItem;
 
     @SubscribeEvent
     public static void onItemsRegistration(final RegistryEvent.Register<Item> itemRegistryEvent) {
@@ -17,5 +18,9 @@ public class StartUpCommon {
         explosiveEggItem = new ExplosiveEggItem();
         explosiveEggItem.setRegistryName("explosive_egg");
         itemRegistryEvent.getRegistry().register(explosiveEggItem);
+
+        brokenEggItem = new BrokenEggItem();
+        brokenEggItem.setRegistryName("broken_egg");
+        itemRegistryEvent.getRegistry().register(brokenEggItem);
     }
 }
